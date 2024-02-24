@@ -1,0 +1,10 @@
+css selector:
+a::after{
+  content: "";
+  display: block;
+  padding-bottom: 0.5rem;
+  border-bottom: 0.1rem solid var(--primary);
+  transform: scaleX(0);
+  transition: 0.2s linear;
+}
+penjelasan: content bertujuan untuk menampilkan apapun yang ditetapkan didalam content, guna untuk ditampilkan sesuai dengan selector yang ditetapkan. Misal, selector yang ditetapkan adalah ::after, maka content akan ditampilkan setelah element a. Display block bertujuan untuk membuat a sebagai content itu sendiri, dan akan membuat a::after menjadi vertikal (bawah jika after dan atas jika before)
